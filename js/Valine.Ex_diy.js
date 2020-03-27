@@ -1825,7 +1825,7 @@
 				}
 			},
 			x = function() {
-				$.getJSON("https://api.ipify.org/?format=json", function(e) {
+				$.getJSON("https://api.ifking.cn/api/getip?type=json", function(e) {
 					u.ip = e.ip
 				})
 			};
