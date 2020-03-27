@@ -1825,7 +1825,7 @@
 				}
 			},
 			x = function() {
-				$.getJSON("https://api.ip.sb/jsonip", function(e) {
+				$.getJSON("https://api.ipify.org/?format=json", function(e) {
 					u.ip = e.ip
 				})
 			};
