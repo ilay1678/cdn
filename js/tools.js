@@ -1,4 +1,3 @@
-<script type="text/javascript">
     function pw() {
         var sitename = document.querySelector('.sitename').value;
         if (/http:|https:/.test(sitename)) {
@@ -224,4 +223,3 @@
             pw();
         }
     }
-    </script>
